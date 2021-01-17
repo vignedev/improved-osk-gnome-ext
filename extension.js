@@ -306,7 +306,7 @@ function override_getDefaultKeysForRow(row, numRows, level) {
     [
       [
         { label: "⌫", width: 1.5, keyval: Clutter.KEY_BackSpace },
-        { label: "⌦", width: 1, keyval: Clutter.KEY_Delete },
+        // { label: "⌦", width: 1, keyval: Clutter.KEY_Delete },
         { label: "⇊", width: 1, action: "hide", extraClassName: "hide-key" },
       ],
       [
@@ -331,11 +331,12 @@ function override_getDefaultKeysForRow(row, numRows, level) {
           right: true,
           extraClassName: "shift-key-lowercase",
         },
+        { label: "↑", width: 1, keyval: Clutter.KEY_Up },
         { label: "?123", width: 1.5, level: 2 },
       ],
       [
         { label: "←", width: 1, keyval: Clutter.KEY_Left },
-        { label: "↑", width: 1, keyval: Clutter.KEY_Up },
+        // { label: "↑", width: 1, keyval: Clutter.KEY_Up },
         { label: "↓", width: 1, keyval: Clutter.KEY_Down },
         { label: "→", width: 1, keyval: Clutter.KEY_Right },
       ],
@@ -343,7 +344,7 @@ function override_getDefaultKeysForRow(row, numRows, level) {
     [
       [
         { label: "⌫", width: 1.5, keyval: Clutter.KEY_BackSpace },
-        { label: "⌦", width: 1, keyval: Clutter.KEY_Delete },
+        //{ label: "⌦", width: 1, keyval: Clutter.KEY_Delete },
         { label: "⇊", width: 1, action: "hide", extraClassName: "hide-key" },
       ],
       [
@@ -362,11 +363,12 @@ function override_getDefaultKeysForRow(row, numRows, level) {
           right: true,
           extraClassName: "shift-key-uppercase",
         },
+        { label: "↑", width: 1, keyval: Clutter.KEY_Up },
         { label: "?123", width: 1.5, level: 2 },
       ],
       [
         { label: "←", width: 1, keyval: Clutter.KEY_Left },
-        { label: "↑", width: 1, keyval: Clutter.KEY_Up },
+        //{ label: "↑", width: 1, keyval: Clutter.KEY_Up },
         { label: "↓", width: 1, keyval: Clutter.KEY_Down },
         { label: "→", width: 1, keyval: Clutter.KEY_Right },
       ],
@@ -374,7 +376,7 @@ function override_getDefaultKeysForRow(row, numRows, level) {
     [
       [
         { label: "⌫", width: 1.5, keyval: Clutter.KEY_BackSpace },
-        { label: "⌦", width: 1, keyval: Clutter.KEY_Delete },
+        //{ label: "⌦", width: 1, keyval: Clutter.KEY_Delete },
         { label: "⇊", width: 1, action: "hide", extraClassName: "hide-key" },
       ],
       [
@@ -392,11 +394,12 @@ function override_getDefaultKeysForRow(row, numRows, level) {
       ],
       [
         { label: "=/<F", width: 3, level: 3, right: true },
+        { label: "↑", width: 1, keyval: Clutter.KEY_Up },
         { label: "ABC", width: 1.5, level: 0 },
       ],
       [
         { label: "←", width: 1, keyval: Clutter.KEY_Left },
-        { label: "↑", width: 1, keyval: Clutter.KEY_Up },
+        // { label: "↑", width: 1, keyval: Clutter.KEY_Up },
         { label: "↓", width: 1, keyval: Clutter.KEY_Down },
         { label: "→", width: 1, keyval: Clutter.KEY_Right },
       ],
@@ -407,7 +410,7 @@ function override_getDefaultKeysForRow(row, numRows, level) {
         { label: "F2", width: 1, keyval: Clutter.KEY_F2 },
         { label: "F3", width: 1, keyval: Clutter.KEY_F3 },
         { label: "⌫", width: 1.5, keyval: Clutter.KEY_BackSpace },
-        { label: "⌦", width: 1, keyval: Clutter.KEY_Delete },
+        // { label: "⌦", width: 1, keyval: Clutter.KEY_Delete },
         { label: "⇊", width: 1, action: "hide", extraClassName: "hide-key" },
       ],
       [
@@ -432,6 +435,7 @@ function override_getDefaultKeysForRow(row, numRows, level) {
         { label: "F8", width: 1, keyval: Clutter.KEY_F8 },
         { label: "F9", width: 1, keyval: Clutter.KEY_F9 },
         { label: "?123", width: 3, level: 2, right: true },
+        { label: "↑", width: 1, keyval: Clutter.KEY_Up },
         { label: "ABC", width: 1.5, level: 0 },
       ],
       [
@@ -439,7 +443,7 @@ function override_getDefaultKeysForRow(row, numRows, level) {
         { label: "F11", width: 1, keyval: Clutter.KEY_F11 },
         { label: "F12", width: 1, keyval: Clutter.KEY_F12 },
         { label: "←", width: 1, keyval: Clutter.KEY_Left },
-        { label: "↑", width: 1, keyval: Clutter.KEY_Up },
+        // { label: "↑", width: 1, keyval: Clutter.KEY_Up },
         { label: "↓", width: 1, keyval: Clutter.KEY_Down },
         { label: "→", width: 1, keyval: Clutter.KEY_Right },
       ],

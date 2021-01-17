@@ -5,5 +5,8 @@
 }
 
 #keyboard {
-      background-color: #000000;
+      /*background-color: #000000;*/
+}
+#keyboard * {
+      font-size: 1.05em;
 }
